@@ -155,7 +155,7 @@ class _CreateState extends State<Create> {
                                       ? '${currentDate.day}/${currentDate.month}/${currentDate.year}'
                                       : '${_selectedDate!.day}/${_selectedDate!.month}/${_selectedDate!.year}',
                                   style: TextStyle(
-                                      fontSize: 20, color: Colors.black),
+                                      fontSize: 15, color: Colors.black),
                                 ),
                                 Icon(Icons.calendar_month_outlined,
                                     color: Color.fromARGB(255, 75, 74, 74)),
@@ -179,7 +179,7 @@ class _CreateState extends State<Create> {
                                       ? '${now.hour}:${now.minute}'
                                       : '${_selectedTime?.hour}:${_selectedTime?.minute}',
                                   style: TextStyle(
-                                      fontSize: 20, color: Colors.black),
+                                      fontSize: 15, color: Colors.black),
                                 ),
                                 Icon(Icons.access_time,
                                     color: Color.fromARGB(255, 75, 74, 74)),

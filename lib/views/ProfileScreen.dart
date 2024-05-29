@@ -60,7 +60,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Container(
-                    height: 90,
+                    height: 120,
                     width: 170,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
@@ -77,12 +77,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           Text(
                             'Pending Tasks',
                             style: TextStyle(
-                                fontSize: 20, fontWeight: FontWeight.w300),
+                                fontSize: 15, fontWeight: FontWeight.w300),
                           )
                         ]),
                   ),
                   Container(
-                    height: 90,
+                    height: 120,
                     width: 170,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
@@ -99,7 +99,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           Text(
                             'Completed Tasks',
                             style: TextStyle(
-                                fontSize: 20, fontWeight: FontWeight.w300),
+                                fontSize: 15, fontWeight: FontWeight.w300),
                           )
                         ]),
                   ),
